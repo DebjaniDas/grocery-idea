@@ -55,6 +55,10 @@ app.get('/home1', function(request,response){
     response.render('home1.ejs')
 })
 
+app.get('/profile', function(request,response){
+    response.render('profile.ejs')
+})
+
 
 
 

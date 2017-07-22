@@ -36,7 +36,7 @@
                 <div class="nav-wrapper">
                     <a href="/home" class="left brand-logo" id= "logoName"><font size= "10">GoGrocery</font></a>
                     <ul id="nav-mobile" class="right">
-                        <li class= "navtext  hide-on-med-and-down" id= "third"><a href="/profile"><font color= "white" size= "4">About GoGrocery</font></a></li>
+                        <li class= "navtext  hide-on-med-and-down" id= "third"><a href="/home"><font color= "white" size= "4">About GoGrocery</font></a></li>
                         <li class= "navtext" id= "fourth"><a href="signup" ><font color= "white" size="4">Sign Up</font></a></li>
                         <li class= "navtext" id= "fifth"><a href="/login" id= "login"><font color= "white" size="4" id= "loginbutton">Log In</font></a></li>
                         <hr />
@@ -78,9 +78,9 @@
               <label class = "label" for="password">Password</label>
             </div>
         </div>
-       <button onclick = {signOut()}></button>
+        <a href = "/profile"><button onclick = {signOut()}></button></a>
 
-        <a  href = "#" class="waves-effect waves-light btn" id= "signinbutton" onclick = {signInWithOwnAccount()}><center>Sign In</center></a>
+        <a  class="waves-effect waves-light btn" id= "signinbutton" onclick = {signInWithOwnAccount()}><center>Sign In</center></a>
     </div>
     
     <script

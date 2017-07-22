@@ -52,7 +52,7 @@ body {
   top: 15%;
   left: 32%;
   
-  background: #ffe0b2;
+  background: #ffcc80;
   border-style: solid;
   border-color: #C4421A;
   box-shadow: 10px 10px 5px #888888;
@@ -85,7 +85,7 @@ background:
       rgba(0, 0, 0, 0.1)
     ),
     /* bottom, image */
-     url(https://image-gr.s3.envato.com/files/80235251/preview.jpg); 
+     url(https://bibliotek.kk.dk/sites/default/files/list_image/folkekoekken_til_web_0.jpg); 
     /*url(http://data.whicdn.com/images/124970371/original.jpg);*/
 
 
