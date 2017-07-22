@@ -1,0 +1,139 @@
+ html {
+    font-family: 'Didact Gothic', sans-serif;
+  }
+
+body {
+    background-color: #efebe9;
+}
+
+
+.brand-logo{
+    font-family: 'Satisfy', cursive;
+    left: 3%;
+   
+
+}
+
+.navtext {
+    font-family: 'Didact Gothic', sans-serif;
+    
+}
+#fifth {
+    position:absolute;
+    top:1%;
+    right: 3%;
+}
+
+#fourth {
+    position:absolute;
+    top:1%;
+    right: 10%;
+}
+
+#third {
+    position: absolute;
+    top: 1%;
+    right: 18%;
+}
+
+#findAGrocery{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#login{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#table {
+  position: absolute;
+  width: 650px;
+  height: 700px;
+  
+  top: 15%;
+  left: 32%;
+  
+  background: #ffe0b2;
+  border-style: solid;
+  border-color: #C4421A;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+#table2 {
+  position: absolute;
+  width: 650px;
+  height: 700px;
+  
+  top: 15%;
+  left: 32%;
+  
+  background: #C4421A;
+  border-style: solid;
+  border-color: #ffe0b2;
+  box-shadow: 10px 10px 5px #888888;
+
+}
+
+
+
+
+.loginBody{
+background:
+    /*top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
+    ),
+    /* bottom, image */
+     url(https://image-gr.s3.envato.com/files/80235251/preview.jpg); 
+    /*url(http://data.whicdn.com/images/124970371/original.jpg);*/
+
+
+
+
+}
+
+.signupBody{
+background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1), 
+      rgba(0, 0, 0, 0.1)
+    ),
+    /* bottom, image */
+     url(https://bibliotek.kk.dk/sites/default/files/list_image/folkekoekken_til_web_0.jpg); 
+
+
+}
+
+#loginHeading{
+    font-family: 'Satisfy', cursive;
+    color: #00796b;
+}
+
+#signupHeading{
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
+
+#loginsmallerheading{
+    font-family: 'Didact Gothic', sans-serif;
+    color: #00796b; 
+}
+
+.label {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#facebooksigninbutton {
+    
+    
+}
+
+#signinbutton {
+    left: 39%;
+}
+
+#googlesigninbutton{
+    
+}

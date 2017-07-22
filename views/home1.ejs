@@ -12,7 +12,6 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js'></script>
     <meta name='viewport' content='initial-scale=1.0, user-scalable=no'>
     <meta charset='utf-8'>
-
     <style>
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
@@ -26,24 +25,23 @@
         padding: 10;
       }
     </style>
-             
   </head>
   <body>
     <div class= "navbar-fixed">
-        <nav class= "teal navbar navbar-default">
+        <nav class= "teal darken-2 navbar navbar-default">
                 <div class="nav-wrapper">
                     <a href="/home" class="left brand-logo" id= "logoName"><font size= "10">GoGrocery</font></a>
                     <ul id="nav-mobile" class="right">
                         <li class= "navtext  hide-on-med-and-down" id= "third"><a href="/home"><font color= "white" size= "4">About GoGrocery</font></a></li>
-                        <li class= "navtext" id= "fourth"><a href="/signup" ><font color= "white" size="4">Sign Up</font></a></li>
-                        <li class= "navtext" id= "fifth"><a href="/login" id= "login"><font color= "white" size="4">Log In</font></a></li>
+                        <li class= "navtext" id= "fourth"><a href="/signup"><font color= "white" size="4">Sign Up</font></a></li>
+                        <li class= "navtext" id= "fifth"><a href="/login"><font color= "white" size="4">Log In</font></a></li>
                         <hr />
                     </ul>
                 </div>
         </nav>
     </div> 
     <div class="container">
-        <h1 id= "findAGrocery"><center>Find a Grocery!</center></h1>
+        <h1 id= "findAGrocery"><center>Welcome! Find a Grocery!</center></h1>
         <form>
             <p> Enter item here:
                 <input name = 'location1' id = "location2"/>
@@ -141,7 +139,7 @@
       }
 
    </script>
-
+   
 
     <script async defer
         src='https://maps.googleapis.com/maps/api/js?key=AIzaSyBE_eM_zuZbK1AL_3_yBApX-o9bZClXmKc&callback=initMap'>
